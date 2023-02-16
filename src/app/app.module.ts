@@ -12,12 +12,13 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppngListService } from './shopping-list/shopping-list.service';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, 
     RecipesComponent, RecipeListComponent, RecipeDetailComponent, 
     RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent, DropdownDirective], 
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [ShoppngListService],
   bootstrap: [AppComponent],
 
