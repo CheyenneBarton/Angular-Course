@@ -19,7 +19,8 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
 @NgModule({
   declarations: [AppComponent, HeaderComponent, 
     RecipesComponent, RecipeListComponent, RecipeDetailComponent, 
-    RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent, DropdownDirective, RecipeStartComponent, RecipeEditComponent], 
+    RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent,
+    DropdownDirective, RecipeStartComponent, RecipeEditComponent], 
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [ShoppngListService],
   bootstrap: [AppComponent],
